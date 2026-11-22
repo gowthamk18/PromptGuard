@@ -7,6 +7,14 @@
 > **Team Name:** AI Prompt Safety Tester  
 > **Team Leader:** Kommalapati Venkata Sai Gowtham (S24CSEU2175)  
 > **Team Member:** Pulkit Chahar (S24CSEU2385)  
+> **Faculty Name:** Dr. Ankit Vijay Bansal  
+
+---
+
+### 🌐 Official Project Deliverable Links
+- 🚀 **Live Streamlit Web Application:** [https://promptguardsafetytester.streamlit.app/](https://promptguardsafetytester.streamlit.app/)
+- 💻 **GitHub Code Repository:** [https://github.com/gowthamk18/PromptGuard](https://github.com/gowthamk18/PromptGuard)
+- 🎥 **Video Demonstration Walkthrough:** [https://youtu.be/1SCWbHGUUCo](https://youtu.be/1SCWbHGUUCo)
 
 ---
 

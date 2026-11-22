@@ -160,7 +160,7 @@ def build_milestone2_pdf(output_path):
          Paragraph("<b>Academic Term:</b>", styles['table_cell_bold']), Paragraph("Fall 2026", styles['table_cell'])],
         [Paragraph("<b>Team Leader:</b>", styles['table_cell_bold']), Paragraph("Kommalapati Venkata Sai Gowtham (S24CSEU2175)", styles['table_cell']),
          Paragraph("<b>Member:</b>", styles['table_cell_bold']), Paragraph("Pulkit Chahar (S24CSEU2385)", styles['table_cell'])],
-        [Paragraph("<b>Course Instructor:</b>", styles['table_cell_bold']), Paragraph("Dr. Course Faculty Name", styles['table_cell']),
+        [Paragraph("<b>Faculty Name:</b>", styles['table_cell_bold']), Paragraph("Dr. Ankit Vijay Bansal", styles['table_cell']),
          Paragraph("<b>Submission Date:</b>", styles['table_cell_bold']), Paragraph("November 22, 2026", styles['table_cell'])]
     ]
     t_cover = Table(cover_meta, colWidths=[100, 165, 100, 165])
@@ -177,8 +177,8 @@ def build_milestone2_pdf(output_path):
     links_data = [
         [Paragraph("<b>Project Artifact Links (3 Mandatory Deliverables):</b>", styles['table_header']), Paragraph("", styles['table_header'])],
         [Paragraph("<b>1. GitHub Code Repository:</b>", styles['table_cell_bold']), Paragraph("https://github.com/gowthamk18/PromptGuard", styles['table_cell'])],
-        [Paragraph("<b>2. Live Streamlit Web Application:</b>", styles['table_cell_bold']), Paragraph("http://localhost:8501 (Streamlit Localhost / Cloud)", styles['table_cell'])],
-        [Paragraph("<b>3. Video Demonstration Walkthrough:</b>", styles['table_cell_bold']), Paragraph("https://drive.google.com/file/d/PromptGuard-Milestone2-Demo/view", styles['table_cell'])],
+        [Paragraph("<b>2. Live Streamlit Web Application:</b>", styles['table_cell_bold']), Paragraph("https://promptguardsafetytester.streamlit.app/", styles['table_cell'])],
+        [Paragraph("<b>3. Video Demonstration Walkthrough:</b>", styles['table_cell_bold']), Paragraph("https://youtu.be/1SCWbHGUUCo", styles['table_cell'])],
     ]
     t_links = Table(links_data, colWidths=[180, 350])
     t_links.setStyle(TableStyle([
@@ -524,8 +524,11 @@ def build_synopsis_pdf(output_path):
     meta_table = [
         [Paragraph("<b>Project Title:</b>", styles['table_cell_bold']), Paragraph("PromptGuard: A Prompt Safety Testing Framework for AI Chatbots", styles['table_cell'])],
         [Paragraph("<b>Team ID & Batch:</b>", styles['table_cell_bold']), Paragraph("PE-B49-54 | Batch B49–64", styles['table_cell'])],
+        [Paragraph("<b>Faculty Name:</b>", styles['table_cell_bold']), Paragraph("Dr. Ankit Vijay Bansal", styles['table_cell'])],
         [Paragraph("<b>Team Members:</b>", styles['table_cell_bold']), Paragraph("Kommalapati Venkata Sai Gowtham (S24CSEU2175) & Pulkit Chahar (S24CSEU2385)", styles['table_cell'])],
-        [Paragraph("<b>Deliverable Scope:</b>", styles['table_cell_bold']), Paragraph("Supporting Document for Milestone 2 Question 16", styles['table_cell'])],
+        [Paragraph("<b>Live Streamlit App:</b>", styles['table_cell_bold']), Paragraph("https://promptguardsafetytester.streamlit.app/", styles['table_cell'])],
+        [Paragraph("<b>GitHub Repository:</b>", styles['table_cell_bold']), Paragraph("https://github.com/gowthamk18/PromptGuard", styles['table_cell'])],
+        [Paragraph("<b>Video Demo:</b>", styles['table_cell_bold']), Paragraph("https://youtu.be/1SCWbHGUUCo", styles['table_cell'])],
     ]
     t_meta = Table(meta_table, colWidths=[120, 400])
     t_meta.setStyle(TableStyle([
