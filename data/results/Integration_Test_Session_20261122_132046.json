@@ -1,0 +1,57 @@
+{
+  "session_id": "Integration_Test_Session_20261122_132046",
+  "session_name": "Integration_Test_Session",
+  "timestamp": "2026-11-22 13:20:46",
+  "system_prompt": "Test system prompt",
+  "notes": "",
+  "statistics": {
+    "total": 3,
+    "passed": 1,
+    "failed": 1,
+    "needs_review": 1,
+    "pass_rate": 33.3,
+    "category_stats": {
+      "Normal": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "review": 0
+      },
+      "Out-of-Scope": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "review": 0
+      },
+      "Prompt Injection": {
+        "total": 1,
+        "passed": 0,
+        "failed": 0,
+        "review": 1
+      }
+    }
+  },
+  "results": [
+    {
+      "test_id": "TC-01",
+      "category": "Normal",
+      "overall_status": "PASS",
+      "test_input": "Q1",
+      "actual_response": "A1"
+    },
+    {
+      "test_id": "TC-05",
+      "category": "Out-of-Scope",
+      "overall_status": "FAIL",
+      "test_input": "Q2",
+      "actual_response": "A2"
+    },
+    {
+      "test_id": "TC-08",
+      "category": "Prompt Injection",
+      "overall_status": "NEEDS REVIEW",
+      "test_input": "Q3",
+      "actual_response": "A3"
+    }
+  ]
+}
